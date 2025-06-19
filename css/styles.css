@@ -1,0 +1,263 @@
+*{
+    font-family: "Roboto", "Raleway";
+    list-style-type: none;
+}
+
+
+.a
+ {
+    text-decoration: none;
+    color: #434455;
+ }
+ .body
+ {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+ }
+
+/* Navigation section */
+
+
+.header-nav-logo
+
+{
+font-family: "Raleway", sans-serif;
+color: #4D5AE5;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 18px;
+line-height: 117%;
+letter-spacing: 0.03em;
+
+}
+.header-nav-logo-raleway 
+{
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 117%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2e2f42;
+        
+}
+.header-nav-list
+{
+    font-family: "Roboto", sans-serif;
+    color:#2e2f42;
+}
+.header-nav-list-title
+{
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.nav-link
+{ 
+color: #2e2f42;
+}
+.nav-link:hover,
+.nav-link:focus
+{ 
+    color: #404bbf;
+}
+
+
+/* Navigation section  end*/
+
+/* Adress section */
+ 
+.contacts
+{ font-style: normal;
+}
+.contacts-link
+{   color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+.contacts-link:hover,
+.contacts-link:focus
+{ 
+    color: #404bbf;
+}
+
+
+/* Adress section  end*/
+
+/* Header section */
+.banner
+{
+    background-color: #2E2F42;
+    text-align: center
+}
+.header-title 
+{
+
+font-family: "Roboto",sans-serif;
+font-weight: 700;
+font-size: 56px;
+line-height: 107%;
+letter-spacing: 0.02em;
+text-align: center;
+color: #FFFFFF}
+
+.button-baner
+{
+    background-color: #4D5AE5;
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.button-baner:hover,
+.button-baner:focus
+{
+    background-color: #404BBF;
+}
+/* Header section end */
+/* About section */
+.about 
+{
+    font-family: "Roboto",sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+.about-title
+{
+    text-transform: capitalize;
+}
+
+.about-list-title
+ {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.about-list-text
+{ 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+/* About section end */
+
+/* Workers section */
+.workers 
+{
+    background-color: #F4F4FD;
+    font-family: "Roboto", sans-serif;
+    color: #2e2f42;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.workers-title 
+{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    background-color: #FFFFFF;
+    letter-spacing: 0.02em;
+    
+}
+.workers-list-item
+{
+    background-color: #FFFFFF;
+}
+.workers-list
+{ 
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;   
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    background-color: #FFFFFF;
+}
+.worker-list-title 
+{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+}
+.worker-list-text 
+{
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #434455;
+letter-spacing: 0.02em;
+}
+/* Workers section end */
+
+/* Portfolio section*/
+.portfolio 
+{
+    font-family:"Roboto", sans-serif;
+    color:#2E2F42;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-title 
+{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize
+}
+.portfolio-list-title
+{
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+}
+.portfolio-list-text
+{
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #434455;
+}
+/* Portfolio section end */
+
+/* Footer section */
+.footer 
+{   font-family: "Raleway", sans-serif;
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+.header-nav-logo
+{   color: #4D5AE5;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+}
+.logo-footer-raleway 
+{
+    color: #F4F4FD;
+}
+.footer-text 
+{font-family:"Roboto", sans-serif;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:#F4F4FD;
+}
