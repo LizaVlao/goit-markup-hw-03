@@ -34,7 +34,7 @@
     margin: 0;
  }
  .img
- {  display: block;
+ {  
     max-width: 100%;
     height: auto;
     
@@ -199,7 +199,6 @@ font-weight: 700;
 font-size: 56px;
 line-height: 107%;
 letter-spacing: 0.02em;
-text-align: center;
 color: #FFFFFF;
 max-width: 496px;
 justify-content: center;
