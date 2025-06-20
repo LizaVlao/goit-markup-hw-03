@@ -2,23 +2,86 @@
     font-family: "Roboto", "Raleway";
     list-style-type: none;
 }
-
-
-.a
- {
+.a {
     text-decoration: none;
     color: #434455;
  }
- .body
+ .body {
+     font-family: "Roboto", sans-serif;
+     color: #434455;
+     background-color: #FFFFFF;
+   }
+
+
+ /* Reset some default styles */
+.ul,.ol 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+ }
+ .h1,.h2,.h3,.h4,.h5,.h6
+ {
+    font-family: "Raleway", sans-serif;
+    color: #2E2F42;
+    margin: 0;
+    padding: 0;
+ }
+ .p
  {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: #FFFFFF;
+    margin: 0;
  }
+ .img
+ {
+    max-width: 100%;
+    height: auto;
+ }
+
+  .a {
+      text-decoration: none;
+      color: #434455;
+  }
+  .a:hover, .a:focus
+ {
+    text-decoration: underline;
+}
+
+/* Common styles */
+ .container 
+ {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+ }
+
+/* Header section */
+.header 
+{
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container 
+{
+    display: flex;
+    align-items: center;
+}
 
 /* Navigation section */
 
+.header-nav
+{
+    display: flex;
+    align-items: center;
+    
+}
+.header-nav-list
+{
+    display: flex;
+    gap: 40px;
+    align-items: center;
 
+}
 .header-nav-logo
 
 {
@@ -29,7 +92,9 @@ font-weight: 700;
 font-size: 18px;
 line-height: 117%;
 letter-spacing: 0.03em;
-
+padding: 24px 0;
+margin-right: 76px;
+text-decoration: none;
 }
 .header-nav-logo-raleway 
 {
@@ -40,7 +105,13 @@ letter-spacing: 0.03em;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #2e2f42;
+        text-decoration: none;
         
+}
+.header-nav-logo:hover,
+.header-nav-logo:focus 
+{
+    text-decoration: underline;
 }
 .header-nav-list
 {
@@ -59,11 +130,15 @@ letter-spacing: 0.03em;
 .nav-link
 { 
 color: #2e2f42;
+padding: 24px 0;
+display: block;
+text-decoration: none
 }
 .nav-link:hover,
 .nav-link:focus
 { 
     color: #404bbf;
+    text-decoration: underline
 }
 
 
@@ -73,16 +148,27 @@ color: #2e2f42;
  
 .contacts
 { font-style: normal;
+    margin-left: auto;
+}
+.contacts-list 
+{display: flex;
+gap: 40px;
+align-items: center;
 }
 .contacts-link
 {   color: #434455;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    display:block;
+    text-decoration: none;
+}
 .contacts-link:hover,
 .contacts-link:focus
 { 
     color: #404bbf;
+    text-decoration: underline;
 }
 
 
