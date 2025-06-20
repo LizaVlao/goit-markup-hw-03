@@ -177,11 +177,11 @@ text-decoration: none
 /* Adress section  end*/
 
 /* Header section */
-.container-banner { 
+.container-banner
+ { 
     display: block;
-        max-width: 1158px;
-        
-    }
+    max-width: 1158px;
+}
 .banner
 {
     background-color: #2E2F42;
