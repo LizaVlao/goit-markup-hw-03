@@ -178,6 +178,7 @@ text-decoration: none
 /* Adress section  end*/
 
 /* Header section */
+
 .container-banner
  { 
     display: block;
@@ -239,22 +240,26 @@ text-align: center;
     background-color: #FFFFFF;
     padding: 120px 0 120px;
 }
-.container,.about-container 
+
+.about-container
 {
-    width: 1158px;
-    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1128px;
     gap: 24px;
-    
 }
 .about-title
 {
     text-transform: capitalize;
 
 }
-.abaut-list-item
+.about-list-item
 {
-    display: flex;
     width: calc((100% - 72px) / 4);
+    justify-content: center;
+    text-align: center;
+    display: flex;
 }
 .about-list-title
  {
