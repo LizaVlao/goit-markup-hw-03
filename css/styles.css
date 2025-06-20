@@ -66,6 +66,7 @@
 {
     display: flex;
     align-items: center;
+    max-width: 1158px;
 }
 
 /* Navigation section */
