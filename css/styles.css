@@ -275,11 +275,9 @@ margin:auto
 /* About section end */
 
 /* Workers section */
-.container .workers-container 
-{ 
-    width: 1470px;
-    padding: 120px 0 120px;
-}
+.container .workers-container
+{width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;}
 .workers 
 {
     background-color: #F4F4FD;
@@ -287,6 +285,7 @@ margin:auto
     color: #2e2f42;
     text-align: center;
     letter-spacing: 0.02em;
+    padding: 120px 0 120px;
 }
 
 .workers-title 
@@ -295,17 +294,14 @@ margin:auto
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
     letter-spacing: 0.02em;
-    margin-bottom: 72px;
-   
-    
+    margin-bottom: 72px;  
 }
 .workers-list-item
 {
     background-color: #FFFFFF;
-    width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
+
 }
 .workers-list
 { 
