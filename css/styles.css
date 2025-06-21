@@ -247,11 +247,12 @@ margin:auto
 .about-title
 {
     text-transform: capitalize;
-    margin-bottom: 8px;
+    
 }
 .about-list-item
 {
     width: calc((100% - 72px) / 4);
+    margin-bottom: 8px;;
 }
 .about-list-title
  {
