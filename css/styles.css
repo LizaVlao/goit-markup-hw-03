@@ -275,6 +275,11 @@ margin:auto
 /* About section end */
 
 /* Workers section */
+.container .workers-container 
+{ 
+    width: 1470px;
+    padding: 120px 0 120px;
+}
 .workers 
 {
     background-color: #F4F4FD;
@@ -292,11 +297,15 @@ margin:auto
     text-transform: capitalize;
     background-color: #FFFFFF;
     letter-spacing: 0.02em;
+    margin-bottom: 72px;
+   
     
 }
 .workers-list-item
 {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 .workers-list
 { 
@@ -306,6 +315,8 @@ margin:auto
     text-transform: capitalize;
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
+    display: flex;
+    gap: 24px;
 }
 .worker-list-title 
 {
@@ -313,6 +324,8 @@ margin:auto
     font-weight: 500;
     line-height: 120%;
     letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .worker-list-text 
 {
@@ -321,7 +334,13 @@ font-size: 16px;
 line-height: 150%;
 color: #434455;
 letter-spacing: 0.02em;
+text-align: center;
 }
+.workers-name 
+{
+    padding: 32px 0;
+}
+
 /* Workers section end */
 
 /* Portfolio section*/
