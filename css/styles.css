@@ -351,6 +351,8 @@ text-align: center;
     font-family:"Roboto", sans-serif;
     color:#2E2F42;
     letter-spacing: 0.02em;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-title 
@@ -360,7 +362,16 @@ text-align: center;
     line-height: 111%;
     text-align: center;
     letter-spacing: 0.02em;
-    text-transform: capitalize
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    
+}
+.portfolio-list 
+{
+    display: flex;
+    column-gap: 24px;
+    row-gap: 48px;
+    flex-wrap: wrap;
 }
 .portfolio-list-title
 {
@@ -368,6 +379,16 @@ font-weight: 500;
 font-size: 20px;
 line-height: 120%;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
+}
+.portfolio-list-item
+{ width: calc((100% - 48px) / 3);
+  border: 1px solid #e7e9fc;
+border-top: none;
+}
+.porfolio-name 
+{
+ padding: 32px 16px;
 }
 .portfolio-list-text
 {
