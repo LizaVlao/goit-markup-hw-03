@@ -388,13 +388,13 @@ letter-spacing: 0.02em;
 margin-bottom: 8px;
 }
 .portfolio-list-item
-{ width: calc((100% - 48px) / 3);
-  border: 1px solid #e7e9fc;
-border-top: none;
+{ width: calc((100% - 48px)/ 3);
+  border-top: none;
 }
 .porfolio-name 
 {
- padding: 32px 16px;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 .portfolio-list-text
 {
