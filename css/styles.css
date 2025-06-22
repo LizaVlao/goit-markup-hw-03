@@ -377,7 +377,6 @@ text-align: center;
     column-gap: 24px;
     row-gap: 48px;
     flex-wrap: wrap;
-    width: calc((100% - 48px) / 4);
 }
 .portfolio-list-title
 {
@@ -389,7 +388,7 @@ margin-bottom: 8px;
 }
 .portfolio-list-item
 {
- width: calc((100% - 48px) / 4);
+width: calc((100% - 48px) / 4);
 }
 .portfolio-name 
 {
