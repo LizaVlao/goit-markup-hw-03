@@ -387,8 +387,8 @@ letter-spacing: 0.02em;
 margin-bottom: 8px;
 }
 .portfolio-list-item
-{ width: calc((100% - 48px)/ 3);
- 
+{
+    width: calc((100% - 48px) / 3);
 }
 .portfolio-name 
 {
