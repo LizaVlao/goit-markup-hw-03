@@ -346,6 +346,11 @@ text-align: center;
 /* Workers section end */
 
 /* Portfolio section*/
+.portfolio-container
+{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc
+}
 .portfolio 
 {
     font-family:"Roboto", sans-serif;
